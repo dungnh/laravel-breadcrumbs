@@ -1,21 +1,22 @@
 {
-    "name": "davejamesmiller/laravel-breadcrumbs",
-    "description": "A simple Laravel-style way to create breadcrumbs.",
+    "name": "coliving/laravel-breadcrumbs",
+    "description": "A simple Laravel-style way to create breadcrumbs. This is forked from davejamesmiller/laravel-breadcrumbs",
     "keywords": [
-        "laravel"
+        "laravel",
+        "coliving"
     ],
-    "homepage": "https://github.com/davejamesmiller/laravel-breadcrumbs",
+    "homepage": "https://github.com/dungnh/laravel-breadcrumb",
     "authors": [
         {
-            "name": "Dave James Miller",
-            "email": "dave@davejamesmiller.com"
+            "name": "Dzung Nguyen",
+            "email": "dungnh@gmail.com"
         }
     ],
     "license": "MIT",
     "require": {
         "php": ">=7.1.3",
         "facade/ignition-contracts": "^1.0",
-        "laravel/framework": ">=5.6"
+        "laravel/framework": ">=6.0"
     },
     "require-dev": {
         "orchestra/testbench": ">=3.6",
